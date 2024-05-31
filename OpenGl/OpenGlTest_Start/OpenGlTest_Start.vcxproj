@@ -72,7 +72,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>D:\WorkSpace\CPP\glfw-3.4.bin.WIN64\include;D:\WorkSpace\CPP\glad\include;$(IncludePath)</IncludePath>
+    <IncludePath>..\..\glfw-3.4.bin.WIN64\include;..\..\glad\include;..\..\glm;$(IncludePath)</IncludePath>
     <LibraryPath>D:\WorkSpace\CPP\glfw-3.4.bin.WIN64\lib-vc2022;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
